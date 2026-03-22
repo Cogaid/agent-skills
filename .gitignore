@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package files
+node_modules/
+*.zip
+
+# Temp files
+*.tmp
+*.temp
+.cache/
+.claude/
+.claude-plugin/
