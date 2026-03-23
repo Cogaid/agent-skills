@@ -13,33 +13,53 @@ MakerClaw is an AI-powered feature within Makersfuel that leverages skills to pe
 ```
 agent-skills/
 ├── skills/
-│   ├── customer-support/     # Customer support workflows
+│   ├── customer-support/     # Customer support workflows (9 skills)
 │   │   ├── ticket-triage/
 │   │   ├── escalation-handler/
 │   │   ├── knowledge-base-writer/
-│   │   └── customer-feedback-analyzer/
-│   ├── sales/                # Sales enablement skills
+│   │   ├── customer-feedback-analyzer/
+│   │   ├── live-chat-handler/
+│   │   ├── refund-processor/
+│   │   ├── order-status-handler/
+│   │   ├── subscription-manager/
+│   │   └── technical-troubleshooter/
+│   ├── sales/                # Sales enablement skills (9 skills)
 │   │   ├── discovery-call/
 │   │   ├── objection-handler/
 │   │   ├── proposal-writer/
-│   │   └── lead-qualifier/
-│   ├── personal-assistance/  # Personal productivity skills
+│   │   ├── lead-qualifier/
+│   │   ├── follow-up-sequence/
+│   │   ├── demo-presenter/
+│   │   ├── cold-outreach-writer/
+│   │   ├── negotiation-handler/
+│   │   └── account-manager/
+│   ├── personal-assistance/  # Personal productivity skills (9 skills)
 │   │   ├── meeting-scheduler/
 │   │   ├── email-drafting/
 │   │   ├── task-prioritizer/
-│   │   └── travel-planner/
-│   └── seo-content/          # SEO and content skills
+│   │   ├── travel-planner/
+│   │   ├── research-assistant/
+│   │   ├── expense-tracker/
+│   │   ├── meeting-summarizer/
+│   │   ├── document-summarizer/
+│   │   └── reminder-manager/
+│   └── seo-content/          # SEO and content skills (9 skills)
 │       ├── blog-post-writer/
 │       ├── keyword-research/
 │       ├── content-optimizer/
-│       └── social-media-repurposer/
+│       ├── social-media-repurposer/
+│       ├── landing-page-writer/
+│       ├── email-newsletter-writer/
+│       ├── product-description-writer/
+│       ├── case-study-writer/
+│       └── ad-copy-writer/
 ├── README.md
 └── LICENSE
 ```
 
 ## Skill Categories
 
-### Customer Support (4 skills)
+### Customer Support (9 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -47,8 +67,13 @@ agent-skills/
 | `escalation-handler` | Handle escalated issues with empathy and resolution |
 | `knowledge-base-writer` | Create and update help documentation |
 | `customer-feedback-analyzer` | Analyze feedback for insights and trends |
+| `live-chat-handler` | Handle real-time customer chats with CARE methodology |
+| `refund-processor` | Process refund requests efficiently and fairly |
+| `order-status-handler` | Handle order inquiries, tracking, and delivery issues |
+| `subscription-manager` | Manage subscriptions, renewals, upgrades, and cancellations |
+| `technical-troubleshooter` | Diagnose and resolve technical issues systematically |
 
-### Sales (4 skills)
+### Sales (9 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -56,8 +81,13 @@ agent-skills/
 | `objection-handler` | Address and overcome sales objections using LAER framework |
 | `proposal-writer` | Create compelling, data-driven sales proposals |
 | `lead-qualifier` | Qualify leads using BANT/MEDDIC/ICE frameworks |
+| `follow-up-sequence` | Create multi-touch follow-up sequences with optimal timing |
+| `demo-presenter` | Deliver compelling product demos using CLOSER framework |
+| `cold-outreach-writer` | Write personalized cold emails that get responses |
+| `negotiation-handler` | Navigate sales negotiations using PREP framework |
+| `account-manager` | Manage customer accounts for retention and expansion |
 
-### Personal Assistance (4 skills)
+### Personal Assistance (9 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -65,8 +95,13 @@ agent-skills/
 | `email-drafting` | Draft professional emails for various contexts |
 | `task-prioritizer` | Prioritize tasks using Eisenhower matrix and ICE scoring |
 | `travel-planner` | Plan and organize travel itineraries |
+| `research-assistant` | Conduct research using GATHER methodology |
+| `expense-tracker` | Track, categorize, and report expenses |
+| `meeting-summarizer` | Create actionable meeting summaries using DACI framework |
+| `document-summarizer` | Summarize documents and reports using CORE framework |
+| `reminder-manager` | Create and manage reminders and follow-ups |
 
-### SEO/Content (4 skills)
+### SEO/Content (9 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -74,6 +109,11 @@ agent-skills/
 | `keyword-research` | Research, analyze, and prioritize target keywords |
 | `content-optimizer` | Audit and optimize existing content for search |
 | `social-media-repurposer` | Repurpose long-form content across social platforms |
+| `landing-page-writer` | Create high-converting landing page copy using proven frameworks |
+| `email-newsletter-writer` | Write engaging email newsletters that drive opens and clicks |
+| `product-description-writer` | Write compelling product descriptions using FAB+E framework |
+| `case-study-writer` | Create persuasive case studies using SCQA+R framework |
+| `ad-copy-writer` | Write high-converting ad copy for digital platforms |
 
 ## Skill Structure
 
@@ -148,6 +188,19 @@ The skills in this repository incorporate well-established industry frameworks a
 | **Eisenhower Matrix** | Dwight D. Eisenhower | `task-prioritizer` |
 | **Flesch-Kincaid Readability** | Rudolf Flesch & J. Peter Kincaid | `readability.py`, `content_audit.py` |
 | **E-E-A-T Guidelines** | Google Search Quality Rater Guidelines | `blog-post-writer`, `content-optimizer` |
+| **CARE Methodology** | Customer Service Industry Standard | `live-chat-handler` |
+| **CLOSER Framework** | Sales Methodology | `demo-presenter` |
+| **GATHER Method** | Research Best Practices | `research-assistant` |
+| **AIDA/PAS Copywriting** | Marketing Copywriting Standards | `landing-page-writer`, `ad-copy-writer` |
+| **CAN-SPAM/GDPR** | Email Marketing Compliance | `email-newsletter-writer` |
+| **CRAAP Test** | California State University | `research-assistant` |
+| **PREP Framework** | Negotiation Best Practices | `negotiation-handler` |
+| **SAVE Framework** | Customer Retention Methodology | `subscription-manager` |
+| **ISOLATE Method** | Technical Support Best Practices | `technical-troubleshooter` |
+| **DACI Framework** | Decision-Making Framework | `meeting-summarizer` |
+| **CORE Framework** | Document Analysis Method | `document-summarizer` |
+| **FAB+E Framework** | Product Marketing | `product-description-writer` |
+| **SCQA+R Framework** | Strategic Communication | `case-study-writer` |
 
 ### Skill Structure Pattern
 
