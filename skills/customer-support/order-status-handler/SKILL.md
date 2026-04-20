@@ -1,5 +1,3 @@
-# Order Status Handler
-
 ---
 name: order-status-handler
 description: Handle order status inquiries, shipping updates, and delivery issues. Use when customers ask about "order status," "where is my order," "tracking," "shipping," "delivery," "package," or "shipment."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: customer-support
 ---
+
+# Order Status Handler
+
+Handle order status inquiries, shipping updates, and delivery issues with clarity and speed.
 
 ## Purpose
 

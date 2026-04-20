@@ -1,5 +1,3 @@
-# Demo Presenter
-
 ---
 name: demo-presenter
 description: Deliver compelling product demos that convert prospects. Use when the user mentions "product demo," "demo presentation," "software walkthrough," "live demo," "sales demo," "demo script," or "demo delivery."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: sales
 ---
+
+# Demo Presenter
+
+Deliver compelling product demos that convert prospects into customers.
 
 ## Purpose
 

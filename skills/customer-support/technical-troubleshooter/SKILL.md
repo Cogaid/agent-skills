@@ -1,5 +1,3 @@
-# Technical Troubleshooter
-
 ---
 name: technical-troubleshooter
 description: Diagnose and resolve technical issues through systematic troubleshooting. Use when customers mention "error," "not working," "bug," "issue," "problem," "crash," "won't load," "can't access," "broken," or specific error codes.
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: customer-support
 ---
+
+# Technical Troubleshooter
+
+Diagnose and resolve technical issues through systematic troubleshooting and guided resolution.
 
 ## Purpose
 

@@ -1,5 +1,3 @@
-# Reminder Manager
-
 ---
 name: reminder-manager
 description: Create and manage reminders, follow-ups, and time-sensitive notifications. Use when user mentions "remind me," "set a reminder," "follow up," "don't forget," "remind me to," "schedule reminder," or "notify me when."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: personal-assistance
 ---
+
+# Reminder Manager
+
+Create and manage reminders, follow-ups, and time-sensitive notifications effectively.
 
 ## Purpose
 

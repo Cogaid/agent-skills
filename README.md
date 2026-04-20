@@ -12,6 +12,7 @@ MakerClaw is an AI-powered feature within Makersfuel that leverages skills to pe
 
 ```
 agent-skills/
+├── MCP_TOOLS.md
 ├── skills/
 │   ├── customer-support/     # Customer support workflows (9 skills)
 │   │   ├── ticket-triage/
@@ -167,6 +168,19 @@ python skills/seo-content/blog-post-writer/scripts/seo_check.py article.md
 # Use templates as reference
 cat skills/sales/proposal-writer/templates/executive-summary.md
 ```
+
+## MCP Tools
+
+For AI agents to effectively execute these skills, they need access to external services via MCP (Model Context Protocol) tools.
+
+See **[MCP_TOOLS.md](MCP_TOOLS.md)** for a comprehensive list of recommended MCP tools organized by domain, including:
+
+| Domain | Key MCP Tools |
+|--------|---------------|
+| Customer Support | Zendesk, Freshdesk, Stripe, Intercom, Chatwoot |
+| Sales | Salesforce, HubSpot, Apollo.io, LinkedIn, PandaDoc |
+| Personal Assistance | Google Calendar, Gmail, Todoist, Otter.ai |
+| SEO/Content | Ahrefs, SEMrush, WordPress, Buffer, Mailchimp |
 
 ## Acknowledgments & Attributions
 

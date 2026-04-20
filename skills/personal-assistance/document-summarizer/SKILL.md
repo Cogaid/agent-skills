@@ -1,5 +1,3 @@
-# Document Summarizer
-
 ---
 name: document-summarizer
 description: Summarize documents, articles, and reports into concise formats. Use when user mentions "summarize this," "TLDR," "key points," "summary of," "brief overview," "main takeaways," or "condense this."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: personal-assistance
 ---
+
+# Document Summarizer
+
+Summarize documents, articles, and reports into concise, actionable formats.
 
 ## Purpose
 

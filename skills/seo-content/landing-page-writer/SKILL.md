@@ -1,5 +1,3 @@
-# Landing Page Writer
-
 ---
 name: landing-page-writer
 description: Create high-converting landing page copy that drives action. Use when the user mentions "landing page," "conversion copy," "sales page," "lead magnet page," "signup page," "product page copy," or "squeeze page."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: seo-content
 ---
+
+# Landing Page Writer
+
+Create high-converting landing page copy that drives action using proven copywriting frameworks.
 
 ## Purpose
 

@@ -1,5 +1,3 @@
-# Product Description Writer
-
 ---
 name: product-description-writer
 description: Write compelling product descriptions that drive conversions. Use when user mentions "product description," "product copy," "e-commerce copy," "listing description," "product page," "Amazon listing," or "product features."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: seo-content
 ---
+
+# Product Description Writer
+
+Write compelling product descriptions that inform buyers and drive conversions across platforms.
 
 ## Purpose
 

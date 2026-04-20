@@ -1,5 +1,3 @@
-# Cold Outreach Writer
-
 ---
 name: cold-outreach-writer
 description: Write compelling cold outreach emails and messages that get responses. Use when user mentions "cold email," "cold outreach," "prospecting," "outbound," "sales email," "reach out to leads," or "first touch."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: sales
 ---
+
+# Cold Outreach Writer
+
+Write compelling cold outreach emails and messages that cut through noise and get responses.
 
 ## Purpose
 

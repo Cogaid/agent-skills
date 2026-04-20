@@ -1,5 +1,3 @@
-# Meeting Summarizer
-
 ---
 name: meeting-summarizer
 description: Create clear, actionable meeting summaries and notes. Use when user mentions "meeting notes," "meeting summary," "summarize meeting," "recap meeting," "meeting minutes," or "action items from meeting."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: personal-assistance
 ---
+
+# Meeting Summarizer
+
+Create clear, actionable meeting summaries that capture decisions, action items, and key insights.
 
 ## Purpose
 

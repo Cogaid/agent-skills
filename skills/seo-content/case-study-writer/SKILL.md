@@ -1,5 +1,3 @@
-# Case Study Writer
-
 ---
 name: case-study-writer
 description: Write compelling case studies that demonstrate value and win new customers. Use when user mentions "case study," "customer story," "success story," "customer testimonial," "proof point," or "reference story."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: seo-content
 ---
+
+# Case Study Writer
+
+Write compelling case studies that demonstrate real customer value and win new business.
 
 ## Purpose
 

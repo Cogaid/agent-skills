@@ -1,5 +1,3 @@
-# Follow-Up Sequence
-
 ---
 name: follow-up-sequence
 description: Create and manage multi-touch follow-up sequences for prospects. Use when the user mentions "follow-up email," "drip campaign," "nurture sequence," "lead follow-up," "sales cadence," "outreach sequence," or "prospect touchpoints."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: sales
 ---
+
+# Follow-Up Sequence
+
+Create and manage multi-touch follow-up sequences that nurture prospects and drive conversions.
 
 ## Purpose
 

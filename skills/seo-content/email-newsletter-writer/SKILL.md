@@ -1,5 +1,3 @@
-# Email Newsletter Writer
-
 ---
 name: email-newsletter-writer
 description: Create engaging email newsletters that drive opens and clicks. Use when the user mentions "newsletter," "email campaign," "email marketing," "subscriber email," "email content," "email copy," or "drip email."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: seo-content
 ---
+
+# Email Newsletter Writer
+
+Create engaging email newsletters that drive opens, clicks, and subscriber loyalty.
 
 ## Purpose
 

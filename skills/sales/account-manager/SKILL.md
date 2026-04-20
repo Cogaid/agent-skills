@@ -1,5 +1,3 @@
-# Account Manager
-
 ---
 name: account-manager
 description: Manage existing customer relationships to drive retention, expansion, and advocacy. Use when user mentions "account management," "customer success," "upsell," "cross-sell," "renewal," "expansion," "retention," or "customer health."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: sales
 ---
+
+# Account Manager
+
+Manage existing customer relationships to drive retention, expansion, and advocacy.
 
 ## Purpose
 

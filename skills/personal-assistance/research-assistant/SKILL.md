@@ -1,5 +1,3 @@
-# Research Assistant
-
 ---
 name: research-assistant
 description: Conduct thorough research and synthesize findings for decision-making. Use when the user mentions "research," "investigate," "find information," "compare options," "due diligence," "background check," or "market research."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: personal-assistance
 ---
+
+# Research Assistant
+
+Conduct thorough research and synthesize findings into actionable insights for decision-making.
 
 ## Purpose
 

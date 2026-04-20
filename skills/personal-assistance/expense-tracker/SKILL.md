@@ -1,5 +1,3 @@
-# Expense Tracker
-
 ---
 name: expense-tracker
 description: Track and categorize expenses for budgeting and reimbursement. Use when the user mentions "expense," "receipt," "spending," "budget tracking," "reimbursement," "expense report," or "cost tracking."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: personal-assistance
 ---
+
+# Expense Tracker
+
+Track, categorize, and report expenses for budgeting and reimbursement workflows.
 
 ## Purpose
 

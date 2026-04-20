@@ -1,5 +1,3 @@
-# Negotiation Handler
-
 ---
 name: negotiation-handler
 description: Navigate sales negotiations to reach mutually beneficial outcomes. Use when user mentions "negotiation," "pricing discussion," "discount request," "contract terms," "deal structure," "closing price," or "final offer."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: sales
 ---
+
+# Negotiation Handler
+
+Navigate sales negotiations to reach mutually beneficial outcomes that protect deal value.
 
 ## Purpose
 

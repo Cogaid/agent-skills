@@ -1,5 +1,3 @@
-# Refund Processor
-
 ---
 name: refund-processor
 description: Process customer refund requests efficiently and fairly. Use when the user mentions "refund request," "money back," "process refund," "refund policy," "refund approval," "chargeback," or "payment reversal."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: customer-support
 ---
+
+# Refund Processor
+
+Process customer refund requests efficiently and fairly while protecting business interests.
 
 ## Purpose
 

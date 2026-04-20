@@ -1,5 +1,3 @@
-# Ad Copy Writer
-
 ---
 name: ad-copy-writer
 description: Write high-converting advertising copy for digital platforms. Use when user mentions "ad copy," "Google ads," "Facebook ads," "advertising," "PPC copy," "paid ads," "sponsored content," or "ad creative."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: seo-content
 ---
+
+# Ad Copy Writer
+
+Write high-converting advertising copy optimized for each digital platform's unique requirements.
 
 ## Purpose
 

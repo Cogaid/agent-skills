@@ -1,5 +1,3 @@
-# Subscription Manager
-
 ---
 name: subscription-manager
 description: Handle subscription management requests including upgrades, downgrades, cancellations, and billing issues. Use when customers mention "subscription," "cancel," "billing," "payment failed," "upgrade," "downgrade," "renewal," "plan change," or "account billing."
@@ -7,6 +5,10 @@ metadata:
   version: 1.0.0
   category: customer-support
 ---
+
+# Subscription Manager
+
+Manage subscription lifecycle including upgrades, downgrades, cancellations, and billing issues.
 
 ## Purpose
 
