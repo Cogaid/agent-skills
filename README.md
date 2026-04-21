@@ -2,7 +2,7 @@
 
 A comprehensive collection of AI agent skills for **MakerClaw** - a feature of [Makersfuel](https://makersfuel.com), developed by **Cogaid Solutions Private Limited**.
 
-These skills enable AI agents to perform specialized tasks across Customer Support, Sales, Personal Assistance, and SEO/Content domains.
+These skills enable AI agents to perform specialized tasks across 9 domains: Customer Support, Sales, Personal Assistance, SEO/Content, HR & Recruitment, Project Management, Finance & Operations, Legal & Compliance, and Data & Analytics.
 
 ## About MakerClaw
 
@@ -14,7 +14,7 @@ MakerClaw is an AI-powered feature within Makersfuel that leverages skills to pe
 agent-skills/
 ├── MCP_TOOLS.md
 ├── skills/
-│   ├── customer-support/     # Customer support workflows (9 skills)
+│   ├── customer-support/        # Customer support workflows (12 skills)
 │   │   ├── ticket-triage/
 │   │   ├── escalation-handler/
 │   │   ├── knowledge-base-writer/
@@ -23,8 +23,11 @@ agent-skills/
 │   │   ├── refund-processor/
 │   │   ├── order-status-handler/
 │   │   ├── subscription-manager/
-│   │   └── technical-troubleshooter/
-│   ├── sales/                # Sales enablement skills (9 skills)
+│   │   ├── technical-troubleshooter/
+│   │   ├── csat-survey-designer/
+│   │   ├── sla-monitor/
+│   │   └── canned-response-library/
+│   ├── sales/                   # Sales enablement skills (12 skills)
 │   │   ├── discovery-call/
 │   │   ├── objection-handler/
 │   │   ├── proposal-writer/
@@ -33,8 +36,11 @@ agent-skills/
 │   │   ├── demo-presenter/
 │   │   ├── cold-outreach-writer/
 │   │   ├── negotiation-handler/
-│   │   └── account-manager/
-│   ├── personal-assistance/  # Personal productivity skills (9 skills)
+│   │   ├── account-manager/
+│   │   ├── competitive-battlecard/
+│   │   ├── sales-report-writer/
+│   │   └── roi-calculator/
+│   ├── personal-assistance/     # Personal productivity skills (12 skills)
 │   │   ├── meeting-scheduler/
 │   │   ├── email-drafting/
 │   │   ├── task-prioritizer/
@@ -43,24 +49,66 @@ agent-skills/
 │   │   ├── expense-tracker/
 │   │   ├── meeting-summarizer/
 │   │   ├── document-summarizer/
-│   │   └── reminder-manager/
-│   └── seo-content/          # SEO and content skills (9 skills)
-│       ├── blog-post-writer/
-│       ├── keyword-research/
-│       ├── content-optimizer/
-│       ├── social-media-repurposer/
-│       ├── landing-page-writer/
-│       ├── email-newsletter-writer/
-│       ├── product-description-writer/
-│       ├── case-study-writer/
-│       └── ad-copy-writer/
+│   │   ├── reminder-manager/
+│   │   ├── daily-briefing/
+│   │   ├── email-organizer/
+│   │   └── decision-matrix/
+│   ├── seo-content/             # SEO and content skills (12 skills)
+│   │   ├── blog-post-writer/
+│   │   ├── keyword-research/
+│   │   ├── content-optimizer/
+│   │   ├── social-media-repurposer/
+│   │   ├── landing-page-writer/
+│   │   ├── email-newsletter-writer/
+│   │   ├── product-description-writer/
+│   │   ├── case-study-writer/
+│   │   ├── ad-copy-writer/
+│   │   ├── seo-audit-reporter/
+│   │   ├── content-calendar/
+│   │   └── competitor-content-analyzer/
+│   ├── hr-recruitment/          # HR and recruitment skills (7 skills)
+│   │   ├── job-description-writer/
+│   │   ├── resume-screener/
+│   │   ├── interview-question-generator/
+│   │   ├── offer-letter-writer/
+│   │   ├── onboarding-checklist/
+│   │   ├── employee-feedback-writer/
+│   │   └── exit-interview-analyzer/
+│   ├── project-management/      # Project management skills (7 skills)
+│   │   ├── sprint-planner/
+│   │   ├── standup-summarizer/
+│   │   ├── project-status-reporter/
+│   │   ├── risk-assessor/
+│   │   ├── retrospective-facilitator/
+│   │   ├── requirements-writer/
+│   │   └── changelog-writer/
+│   ├── finance-operations/      # Finance and operations skills (7 skills)
+│   │   ├── invoice-generator/
+│   │   ├── financial-report-writer/
+│   │   ├── budget-planner/
+│   │   ├── contract-reviewer/
+│   │   ├── sow-writer/
+│   │   ├── pricing-strategy/
+│   │   └── vendor-evaluator/
+│   ├── legal-compliance/        # Legal and compliance skills (5 skills)
+│   │   ├── privacy-policy-writer/
+│   │   ├── terms-of-service-writer/
+│   │   ├── compliance-checker/
+│   │   ├── nda-generator/
+│   │   └── incident-report-writer/
+│   └── data-analytics/          # Data and analytics skills (5 skills)
+│       ├── report-generator/
+│       ├── survey-creator/
+│       ├── dashboard-narrator/
+│       ├── competitive-analyst/
+│       └── kpi-tracker/
 ├── README.md
 └── LICENSE
 ```
 
 ## Skill Categories
 
-### Customer Support (9 skills)
+### Customer Support (12 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -73,8 +121,11 @@ agent-skills/
 | `order-status-handler` | Handle order inquiries, tracking, and delivery issues |
 | `subscription-manager` | Manage subscriptions, renewals, upgrades, and cancellations |
 | `technical-troubleshooter` | Diagnose and resolve technical issues systematically |
+| `csat-survey-designer` | Design post-interaction satisfaction surveys (CSAT, NPS, CES) |
+| `sla-monitor` | Monitor and report SLA compliance with breach alerts |
+| `canned-response-library` | Build and manage templated response libraries |
 
-### Sales (9 skills)
+### Sales (12 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -87,8 +138,11 @@ agent-skills/
 | `cold-outreach-writer` | Write personalized cold emails that get responses |
 | `negotiation-handler` | Navigate sales negotiations using PREP framework |
 | `account-manager` | Manage customer accounts for retention and expansion |
+| `competitive-battlecard` | Create competitive comparison and positioning documents |
+| `sales-report-writer` | Generate pipeline, forecast, and activity reports |
+| `roi-calculator` | Build ROI and TCO calculations for prospects |
 
-### Personal Assistance (9 skills)
+### Personal Assistance (12 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -101,8 +155,11 @@ agent-skills/
 | `meeting-summarizer` | Create actionable meeting summaries using DACI framework |
 | `document-summarizer` | Summarize documents and reports using CORE framework |
 | `reminder-manager` | Create and manage reminders and follow-ups |
+| `daily-briefing` | Generate personalized daily summaries of tasks and priorities |
+| `email-organizer` | Categorize and prioritize inbox with triage workflows |
+| `decision-matrix` | Structure complex decisions with weighted criteria |
 
-### SEO/Content (9 skills)
+### SEO/Content (12 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -115,6 +172,65 @@ agent-skills/
 | `product-description-writer` | Write compelling product descriptions using FAB+E framework |
 | `case-study-writer` | Create persuasive case studies using SCQA+R framework |
 | `ad-copy-writer` | Write high-converting ad copy for digital platforms |
+| `seo-audit-reporter` | Run comprehensive SEO audits with prioritized recommendations |
+| `content-calendar` | Plan and manage content publishing schedules |
+| `competitor-content-analyzer` | Analyze competitor content strategies and find gaps |
+
+### HR & Recruitment (7 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `job-description-writer` | Write inclusive, compelling job descriptions with SEO |
+| `resume-screener` | Screen resumes against job criteria with scoring rubrics |
+| `interview-question-generator` | Create role-specific interview questions by competency |
+| `offer-letter-writer` | Draft offer letters and compensation packages |
+| `onboarding-checklist` | Create 30-60-90 day onboarding plans |
+| `employee-feedback-writer` | Write performance reviews using SBI framework |
+| `exit-interview-analyzer` | Analyze exit interview data for retention insights |
+
+### Project Management (7 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `sprint-planner` | Plan sprint goals, capacity, and story points |
+| `standup-summarizer` | Summarize daily standups into async updates |
+| `project-status-reporter` | Generate RAG status reports for stakeholders |
+| `risk-assessor` | Identify and assess risks with probability-impact matrix |
+| `retrospective-facilitator` | Facilitate and summarize sprint retrospectives |
+| `requirements-writer` | Write PRDs, user stories, and acceptance criteria |
+| `changelog-writer` | Generate changelogs and release notes from commits |
+
+### Finance & Operations (7 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `invoice-generator` | Create professional invoices with payment terms |
+| `financial-report-writer` | Write financial summaries and variance reports |
+| `budget-planner` | Create and manage budgets with forecasting |
+| `contract-reviewer` | Review contracts for key terms and risks |
+| `sow-writer` | Write statements of work for service engagements |
+| `pricing-strategy` | Analyze and recommend pricing models |
+| `vendor-evaluator` | Compare and evaluate vendors with weighted scoring |
+
+### Legal & Compliance (5 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `privacy-policy-writer` | Write GDPR/CCPA compliant privacy policies |
+| `terms-of-service-writer` | Draft terms of service documents |
+| `compliance-checker` | Check content against regulatory requirements |
+| `nda-generator` | Generate non-disclosure agreements |
+| `incident-report-writer` | Write incident reports for security and compliance |
+
+### Data & Analytics (5 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `report-generator` | Create data-driven reports with actionable insights |
+| `survey-creator` | Design effective surveys and questionnaires |
+| `dashboard-narrator` | Narrate dashboard data into written insights |
+| `competitive-analyst` | Analyze competitors using Porter's Five Forces and SWOT |
+| `kpi-tracker` | Define and track KPIs with traffic light scoring |
 
 ## Skill Structure
 
@@ -181,6 +297,11 @@ See **[MCP_TOOLS.md](MCP_TOOLS.md)** for a comprehensive list of recommended MCP
 | Sales | Salesforce, HubSpot, Apollo.io, LinkedIn, PandaDoc |
 | Personal Assistance | Google Calendar, Gmail, Todoist, Otter.ai |
 | SEO/Content | Ahrefs, SEMrush, WordPress, Buffer, Mailchimp |
+| HR & Recruitment | Greenhouse, Lever, BambooHR, LinkedIn Recruiter |
+| Project Management | Jira, Linear, Asana, Notion, ClickUp |
+| Finance & Operations | QuickBooks, Xero, Stripe, DocuSign, Brex |
+| Legal & Compliance | DocuSign, Ironclad, OneTrust, Vanta |
+| Data & Analytics | Google Analytics, Mixpanel, Tableau, Looker |
 
 ## Acknowledgments & Attributions
 
@@ -215,6 +336,20 @@ The skills in this repository incorporate well-established industry frameworks a
 | **CORE Framework** | Document Analysis Method | `document-summarizer` |
 | **FAB+E Framework** | Product Marketing | `product-description-writer` |
 | **SCQA+R Framework** | Strategic Communication | `case-study-writer` |
+| **SBI Framework** | Center for Creative Leadership | `employee-feedback-writer` |
+| **STAR Method** | Behavioral Interview Standard | `interview-question-generator` |
+| **30-60-90 Day Plan** | Onboarding Best Practices | `onboarding-checklist` |
+| **RAG Status** | Project Management Standard | `project-status-reporter` |
+| **MoSCoW Prioritization** | Dai Clegg / Oracle | `requirements-writer` |
+| **Keep a Changelog** | Olivier Lacan | `changelog-writer` |
+| **Semantic Versioning** | Tom Preston-Werner | `changelog-writer` |
+| **Start-Stop-Continue** | Agile Retrospective Practice | `retrospective-facilitator` |
+| **Porter's Five Forces** | Michael Porter | `competitive-analyst`, `pricing-strategy` |
+| **SWOT Analysis** | Albert Humphrey | `competitive-analyst` |
+| **SMART Criteria** | George T. Doran | `kpi-tracker` |
+| **RAPID Framework** | Bain & Company | `decision-matrix` |
+| **Inbox Zero** | Merlin Mann | `email-organizer` |
+| **BRUSO Framework** | Survey Design Best Practices | `survey-creator` |
 
 ### Skill Structure Pattern
 
