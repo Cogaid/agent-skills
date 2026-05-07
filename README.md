@@ -2,7 +2,7 @@
 
 A comprehensive collection of AI agent skills for **MakerClaw** - a feature of [Makersfuel](https://makersfuel.com), developed by **Cogaid Solutions Private Limited**.
 
-These skills enable AI agents to perform specialized tasks across 9 domains: Customer Support, Sales, Personal Assistance, SEO/Content, HR & Recruitment, Project Management, Finance & Operations, Legal & Compliance, and Data & Analytics.
+These skills enable AI agents to perform specialized tasks across 17 domains: Customer Support, Sales, Personal Assistance, SEO/Content, HR & Recruitment, Project Management, Finance & Operations, Legal & Compliance, Data & Analytics, Paid Advertising, YouTube Content, Design System, Video Production, Obsidian/Personal OS, Automation, General Productivity, and Autoresearch.
 
 ## About MakerClaw
 
@@ -27,7 +27,7 @@ agent-skills/
 │   │   ├── csat-survey-designer/
 │   │   ├── sla-monitor/
 │   │   └── canned-response-library/
-│   ├── sales/                   # Sales enablement skills (14 skills)
+│   ├── sales/                   # Sales enablement skills (18 skills)
 │   │   ├── sales-orchestrator/      # Main routing skill
 │   │   ├── sales-prospect/          # 5-agent parallel prospect audit
 │   │   ├── sales-research/          # Company research & firmographics
@@ -41,7 +41,11 @@ agent-skills/
 │   │   ├── sales-icp/              # Ideal Customer Profile builder
 │   │   ├── sales-competitors/      # Competitive intelligence
 │   │   ├── sales-report/           # Pipeline report generator
-│   │   └── sales-report-pdf/       # PDF report generator
+│   │   ├── sales-report-pdf/       # PDF report generator
+│   │   ├── crm-prospect-mining/    # Mine stalled/lost CRM deals
+│   │   ├── linkedin-post-engagers/ # LinkedIn engagement mining
+│   │   ├── sales-rep-analyzer/     # Sales call performance grading
+│   │   └── win-loss-analysis/      # Won vs lost pattern analysis
 │   ├── personal-assistance/     # Personal productivity skills (12 skills)
 │   │   ├── meeting-scheduler/
 │   │   ├── email-drafting/
@@ -55,19 +59,29 @@ agent-skills/
 │   │   ├── daily-briefing/
 │   │   ├── email-organizer/
 │   │   └── decision-matrix/
-│   ├── seo-content/             # SEO and content skills (12 skills)
+│   ├── seo-content/             # SEO and content skills (22 skills)
 │   │   ├── blog-post-writer/
 │   │   ├── keyword-research/
-│   │   ├── content-optimizer/
 │   │   ├── social-media-repurposer/
 │   │   ├── landing-page-writer/
 │   │   ├── email-newsletter-writer/
 │   │   ├── product-description-writer/
 │   │   ├── case-study-writer/
 │   │   ├── ad-copy-writer/
-│   │   ├── seo-audit-reporter/
 │   │   ├── content-calendar/
-│   │   └── competitor-content-analyzer/
+│   │   ├── competitor-content-analyzer/
+│   │   ├── seo-audit/              # 148 rules, 6 parallel agents
+│   │   ├── seo-optimize/           # GSC data-driven optimization
+│   │   ├── seo-geo/                # AI Overviews / GEO
+│   │   ├── seo-competitor-pages/   # "X vs Y" page generation
+│   │   ├── seo-hreflang/           # International SEO
+│   │   ├── seo-schema/             # Schema.org detection & JSON-LD
+│   │   ├── seo-images/             # Image audit
+│   │   ├── seo-sitemap/            # Sitemap validation
+│   │   ├── seo-page/               # Single-page deep analysis
+│   │   ├── seo-technical/          # Crawlability, CWV, JS
+│   │   ├── programmatic-seo/       # SEO at scale
+│   │   └── website-launch-kit/     # Landing page builder
 │   ├── hr-recruitment/          # HR and recruitment skills (7 skills)
 │   │   ├── job-description-writer/
 │   │   ├── resume-screener/
@@ -98,12 +112,76 @@ agent-skills/
 │   │   ├── compliance-checker/
 │   │   ├── nda-generator/
 │   │   └── incident-report-writer/
-│   └── data-analytics/          # Data and analytics skills (5 skills)
-│       ├── report-generator/
-│       ├── survey-creator/
-│       ├── dashboard-narrator/
-│       ├── competitive-analyst/
-│       └── kpi-tracker/
+│   ├── data-analytics/          # Data and analytics skills (5 skills)
+│   │   ├── report-generator/
+│   │   ├── survey-creator/
+│   │   ├── dashboard-narrator/
+│   │   ├── competitive-analyst/
+│   │   └── kpi-tracker/
+│   ├── paid-advertising/        # Paid advertising skills (14 skills)
+│   │   ├── ads/                     # Orchestrator
+│   │   ├── ads-google/              # Google Ads (74 checks)
+│   │   ├── ads-meta/                # Meta/FB/IG Ads (46 checks)
+│   │   ├── ads-linkedin/            # LinkedIn B2B Ads
+│   │   ├── ads-tiktok/              # TikTok Ads
+│   │   ├── ads-youtube/             # YouTube Ads
+│   │   ├── ads-microsoft/           # Microsoft/Bing Ads
+│   │   ├── ads-audit/               # Multi-platform audit (6 agents)
+│   │   ├── ads-budget/              # Budget & bidding strategy
+│   │   ├── ads-creative/            # Creative audit & generation
+│   │   ├── ads-landing/             # Landing page optimization
+│   │   ├── ads-plan/                # Strategic planning
+│   │   ├── ads-competitor/          # Competitive ad intelligence
+│   │   └── infographic-v2/          # Branded ad creatives
+│   ├── youtube-content/         # YouTube content skills (7 skills)
+│   │   ├── youtube-brief/
+│   │   ├── youtube-ideation/
+│   │   ├── youtube-packaging/
+│   │   ├── youtube-outline/
+│   │   ├── youtube-scripting/
+│   │   ├── youtube-excalidraw/
+│   │   └── title-generation/
+│   ├── design-system/           # Design system skills (7 skills)
+│   │   ├── taste/
+│   │   ├── redesign/
+│   │   ├── soft-ui/
+│   │   ├── minimalist-ui/
+│   │   ├── brutalist-ui/
+│   │   ├── stitch/
+│   │   └── output-enforcement/
+│   ├── video-production/        # Video production skills (4 skills)
+│   │   ├── video/
+│   │   ├── excalidraw/
+│   │   ├── infographic/
+│   │   └── gif-creator/
+│   ├── obsidian-os/             # Obsidian/Personal OS skills (6 skills)
+│   │   ├── os-setup/
+│   │   ├── os-optimizer/
+│   │   ├── os-operator/
+│   │   ├── vault-mcp/
+│   │   ├── team-os/
+│   │   └── assistant/
+│   ├── automation/              # Automation skills (2 skills)
+│   │   ├── n8n/
+│   │   └── n8n-prd-generator/
+│   ├── general-productivity/    # General productivity skills (13 skills)
+│   │   ├── agent-browser/
+│   │   ├── audio-transcriber/
+│   │   ├── decision-toolkit/
+│   │   ├── deep-research/
+│   │   ├── fact-checker/
+│   │   ├── file-organizer/
+│   │   ├── find-skills/
+│   │   ├── frontend-slides/
+│   │   ├── humanizer/
+│   │   ├── mcp-builder/
+│   │   ├── openrouter/
+│   │   ├── process-interviewer/
+│   │   └── prompt-master/
+│   └── autoresearch/            # Autoresearch skills (1 skill)
+│       └── autoresearch/
+├── connectors/
+├── scripts/
 ├── README.md
 └── LICENSE
 ```
@@ -127,7 +205,7 @@ agent-skills/
 | `sla-monitor` | Monitor and report SLA compliance with breach alerts |
 | `canned-response-library` | Build and manage templated response libraries |
 
-### Sales (14 skills)
+### Sales (18 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -145,6 +223,10 @@ agent-skills/
 | `sales-competitors` | Competitive intelligence and battle card generation |
 | `sales-report` | Pipeline report synthesizing all prospect analyses |
 | `sales-report-pdf` | Professional PDF reports with charts and color-coded scores |
+| `crm-prospect-mining` | Mine stalled/lost CRM deals for re-engagement |
+| `linkedin-post-engagers` | Scrape LinkedIn post commenters as targeted leads |
+| `sales-rep-analyzer` | Grade sales call performance with scoring frameworks |
+| `win-loss-analysis` | Analyze won vs lost deal patterns from CRM data |
 
 ### Personal Assistance (12 skills)
 
@@ -163,22 +245,32 @@ agent-skills/
 | `email-organizer` | Categorize and prioritize inbox with triage workflows |
 | `decision-matrix` | Structure complex decisions with weighted criteria |
 
-### SEO/Content (12 skills)
+### SEO/Content (22 skills)
 
 | Skill | Description |
 |-------|-------------|
 | `blog-post-writer` | Write SEO-optimized blog content with readability checks |
 | `keyword-research` | Research, analyze, and prioritize target keywords |
-| `content-optimizer` | Audit and optimize existing content for search |
 | `social-media-repurposer` | Repurpose long-form content across social platforms |
 | `landing-page-writer` | Create high-converting landing page copy using proven frameworks |
 | `email-newsletter-writer` | Write engaging email newsletters that drive opens and clicks |
 | `product-description-writer` | Write compelling product descriptions using FAB+E framework |
 | `case-study-writer` | Create persuasive case studies using SCQA+R framework |
 | `ad-copy-writer` | Write high-converting ad copy for digital platforms |
-| `seo-audit-reporter` | Run comprehensive SEO audits with prioritized recommendations |
 | `content-calendar` | Plan and manage content publishing schedules |
 | `competitor-content-analyzer` | Analyze competitor content strategies and find gaps |
+| `seo-audit` | Full multi-platform SEO audit (148 rules, 6 parallel agents) |
+| `seo-optimize` | GSC data-driven content optimization (striking distance, cannibalization) |
+| `seo-geo` | AI Overviews / Generative Engine Optimization |
+| `seo-competitor-pages` | Generate "X vs Y" and alternatives pages with schema |
+| `seo-hreflang` | International SEO / hreflang audit and generation |
+| `seo-schema` | Automated schema.org detection and JSON-LD generation |
+| `seo-images` | Image-specific audit (alt text, sizes, formats, CLS) |
+| `seo-sitemap` | Sitemap validation and generation with quality gates |
+| `seo-page` | Single-page deep analysis (on-page, content, technical) |
+| `seo-technical` | Crawlability, indexability, Core Web Vitals, JS rendering |
+| `programmatic-seo` | SEO pages at scale (12 playbooks, Webflow CMS integration) |
+| `website-launch-kit` | Conversational deep-dive to live landing pages |
 
 ### HR & Recruitment (7 skills)
 
@@ -235,6 +327,100 @@ agent-skills/
 | `dashboard-narrator` | Narrate dashboard data into written insights |
 | `competitive-analyst` | Analyze competitors using Porter's Five Forces and SWOT |
 | `kpi-tracker` | Define and track KPIs with traffic light scoring |
+
+### Paid Advertising (14 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `ads` | Orchestrator routing to platform-specific sub-skills |
+| `ads-google` | Google Ads analysis (74 checks across Search, PMax, Display) |
+| `ads-meta` | Meta/Facebook/Instagram Ads (46 checks, Advantage+) |
+| `ads-linkedin` | LinkedIn B2B advertising (25 checks, ABM) |
+| `ads-tiktok` | TikTok creative-first advertising (25 checks) |
+| `ads-youtube` | YouTube all ad formats (skippable, bumper, Shorts) |
+| `ads-microsoft` | Microsoft/Bing Ads (20 checks, Copilot) |
+| `ads-audit` | Multi-platform audit orchestrator (6 parallel agents) |
+| `ads-budget` | Budget allocation and bidding strategy optimization |
+| `ads-creative` | Cross-platform creative audit and generation |
+| `ads-landing` | Landing page optimization for ad campaigns |
+| `ads-plan` | Strategic ad planning (15 industry templates) |
+| `ads-competitor` | Competitive advertising intelligence |
+| `infographic-v2` | Branded ad creatives via Gemini + Nano Banana |
+
+### YouTube Content (7 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `youtube-brief` | Structured video briefs (6-step interactive) |
+| `youtube-ideation` | Video topic generation and audience strategy |
+| `youtube-packaging` | Titles and thumbnails for CTR optimization |
+| `youtube-outline` | Video structure and visual planning |
+| `youtube-scripting` | Filming-ready scripts and bullet points |
+| `youtube-excalidraw` | On-screen diagram generation for videos |
+| `title-generation` | CTR formula-based YouTube title optimization |
+
+### Design System (7 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `taste` | Premium design system (React/Next.js/Tailwind) |
+| `redesign` | Audit and upgrade existing design projects |
+| `soft-ui` | Luxurious soft aesthetic design |
+| `minimalist-ui` | Editorial/Notion-like clean design |
+| `brutalist-ui` | Raw/mechanical/Swiss aesthetic design |
+| `stitch` | Google Stitch semantic design generation |
+| `output-enforcement` | Force full-fidelity code output |
+
+### Video Production (4 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `video` | FFmpeg + Remotion video editing pipeline |
+| `excalidraw` | Presentations and diagrams (Excalidraw integration) |
+| `infographic` | AI-generated infographics via Gemini API |
+| `gif-creator` | GIF creation from video clips for social media |
+
+### Obsidian/Personal OS (6 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `os-setup` | Bootstrap Obsidian vault structure |
+| `os-optimizer` | 22-pass vault audit and optimization |
+| `os-operator` | Schedule recurring second-brain routines |
+| `vault-mcp` | Deploy self-hosted MCP server on Railway |
+| `team-os` | Shared Team OS with RBAC access controls |
+| `assistant` | Sessions, daily routines, tasks, and memory |
+
+### Automation (2 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `n8n` | Build, test, and deploy n8n workflows via REST API |
+| `n8n-prd-generator` | Convert discovery calls to automation blueprints |
+
+### General Productivity (13 skills)
+
+| Skill | Description |
+|-------|-------------|
+| `agent-browser` | Browser automation CLI for navigation and scraping |
+| `audio-transcriber` | Audio/video transcription to Markdown |
+| `decision-toolkit` | Structured decision-making with bias checkers |
+| `deep-research` | OpenAI Deep Research API integration |
+| `fact-checker` | Systematic fact verification and misinformation detection |
+| `file-organizer` | File and folder cleanup and organization |
+| `find-skills` | Discover and install agent skills |
+| `frontend-slides` | HTML presentations with animations |
+| `humanizer` | Remove AI writing patterns from text |
+| `mcp-builder` | Build MCP servers (Python/Node/TypeScript) |
+| `openrouter` | Access 400+ AI models via unified API |
+| `process-interviewer` | Extract detailed plans before building |
+| `prompt-master` | Optimize prompts for LLMs, image, video, and code AI |
+
+### Autoresearch (1 skill)
+
+| Skill | Description |
+|-------|-------------|
+| `autoresearch` | Autonomous prompt/skill/template optimization loops |
 
 ## Skill Structure
 
@@ -306,6 +492,12 @@ See **[MCP_TOOLS.md](MCP_TOOLS.md)** for a comprehensive list of recommended MCP
 | Finance & Operations | QuickBooks, Xero, Stripe, DocuSign, Brex |
 | Legal & Compliance | DocuSign, Ironclad, OneTrust, Vanta |
 | Data & Analytics | Google Analytics, Mixpanel, Tableau, Looker |
+| Paid Advertising | Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads |
+| YouTube Content | YouTube Studio, TubeBuddy, VidIQ |
+| Design System | Figma, Tailwind, Vercel |
+| Video Production | FFmpeg, Remotion, Excalidraw |
+| Obsidian/Personal OS | Obsidian, Railway |
+| Automation | n8n, Zapier, Make |
 
 ## Acknowledgments & Attributions
 
