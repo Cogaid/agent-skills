@@ -27,19 +27,21 @@ agent-skills/
 │   │   ├── csat-survey-designer/
 │   │   ├── sla-monitor/
 │   │   └── canned-response-library/
-│   ├── sales/                   # Sales enablement skills (12 skills)
-│   │   ├── discovery-call/
-│   │   ├── objection-handler/
-│   │   ├── proposal-writer/
-│   │   ├── lead-qualifier/
-│   │   ├── follow-up-sequence/
-│   │   ├── demo-presenter/
-│   │   ├── cold-outreach-writer/
-│   │   ├── negotiation-handler/
-│   │   ├── account-manager/
-│   │   ├── competitive-battlecard/
-│   │   ├── sales-report-writer/
-│   │   └── roi-calculator/
+│   ├── sales/                   # Sales enablement skills (14 skills)
+│   │   ├── sales-orchestrator/      # Main routing skill
+│   │   ├── sales-prospect/          # 5-agent parallel prospect audit
+│   │   ├── sales-research/          # Company research & firmographics
+│   │   ├── sales-qualify/           # Lead qualification (BANT + MEDDIC)
+│   │   ├── sales-contacts/         # Decision maker intelligence
+│   │   ├── sales-outreach/         # Cold outreach sequences
+│   │   ├── sales-followup/         # Follow-up sequences
+│   │   ├── sales-prep/             # Meeting preparation briefs
+│   │   ├── sales-proposal/         # Sales proposal generator
+│   │   ├── sales-objections/       # Objection handling playbook
+│   │   ├── sales-icp/              # Ideal Customer Profile builder
+│   │   ├── sales-competitors/      # Competitive intelligence
+│   │   ├── sales-report/           # Pipeline report generator
+│   │   └── sales-report-pdf/       # PDF report generator
 │   ├── personal-assistance/     # Personal productivity skills (12 skills)
 │   │   ├── meeting-scheduler/
 │   │   ├── email-drafting/
@@ -125,22 +127,24 @@ agent-skills/
 | `sla-monitor` | Monitor and report SLA compliance with breach alerts |
 | `canned-response-library` | Build and manage templated response libraries |
 
-### Sales (12 skills)
+### Sales (14 skills)
 
 | Skill | Description |
 |-------|-------------|
-| `discovery-call` | Conduct effective discovery conversations using SPIN methodology |
-| `objection-handler` | Address and overcome sales objections using LAER framework |
-| `proposal-writer` | Create compelling, data-driven sales proposals |
-| `lead-qualifier` | Qualify leads using BANT/MEDDIC/ICE frameworks |
-| `follow-up-sequence` | Create multi-touch follow-up sequences with optimal timing |
-| `demo-presenter` | Deliver compelling product demos using CLOSER framework |
-| `cold-outreach-writer` | Write personalized cold emails that get responses |
-| `negotiation-handler` | Navigate sales negotiations using PREP framework |
-| `account-manager` | Manage customer accounts for retention and expansion |
-| `competitive-battlecard` | Create competitive comparison and positioning documents |
-| `sales-report-writer` | Generate pipeline, forecast, and activity reports |
-| `roi-calculator` | Build ROI and TCO calculations for prospects |
+| `sales-orchestrator` | Main routing skill that orchestrates all sales sub-skills |
+| `sales-prospect` | Full prospect audit with 5 parallel analysis agents |
+| `sales-research` | Deep company research across 8 firmographic dimensions |
+| `sales-qualify` | Lead qualification using BANT + MEDDIC frameworks |
+| `sales-contacts` | Decision maker intelligence and buying committee mapping |
+| `sales-outreach` | Personalized 5-email cold outreach sequences with LinkedIn |
+| `sales-followup` | Post-engagement follow-up sequences (5 scenarios) |
+| `sales-prep` | 11-section meeting preparation briefs with cheat sheet |
+| `sales-proposal` | Professional 11-section sales proposals with follow-up |
+| `sales-objections` | 15 universal objections with word-for-word response scripts |
+| `sales-icp` | Ideal Customer Profile builder with scoring rubric |
+| `sales-competitors` | Competitive intelligence and battle card generation |
+| `sales-report` | Pipeline report synthesizing all prospect analyses |
+| `sales-report-pdf` | Professional PDF reports with charts and color-coded scores |
 
 ### Personal Assistance (12 skills)
 
@@ -315,21 +319,20 @@ The skills in this repository incorporate well-established industry frameworks a
 
 | Framework/Methodology | Source | Used In |
 |----------------------|--------|---------|
-| **SPIN Selling** | Neil Rackham | `discovery-call` |
-| **LAER Framework** | Carew International | `objection-handler` |
-| **BANT Qualification** | IBM (1960s) | `lead-qualifier` |
-| **MEDDIC/MEDDPICC** | PTC/Jack Napoli | `lead-qualifier` |
-| **ICE Scoring** | Sean Ellis | `lead-qualifier`, `task-prioritizer` |
+| **BANT Qualification** | IBM (1960s) | `sales-qualify` |
+| **MEDDIC/MEDDPICC** | PTC/Jack Napoli | `sales-qualify` |
+| **Feel-Felt-Found** | Sales Methodology | `sales-objections` |
+| **Acknowledge-Bridge-Close** | Sales Methodology | `sales-objections` |
+| **ICE Scoring** | Sean Ellis | `task-prioritizer` |
 | **Eisenhower Matrix** | Dwight D. Eisenhower | `task-prioritizer` |
 | **Flesch-Kincaid Readability** | Rudolf Flesch & J. Peter Kincaid | `readability.py`, `content_audit.py` |
 | **E-E-A-T Guidelines** | Google Search Quality Rater Guidelines | `blog-post-writer`, `content-optimizer` |
 | **CARE Methodology** | Customer Service Industry Standard | `live-chat-handler` |
-| **CLOSER Framework** | Sales Methodology | `demo-presenter` |
+| **AIDA-P Outreach** | Sales Copywriting Standard | `sales-outreach` |
 | **GATHER Method** | Research Best Practices | `research-assistant` |
-| **AIDA/PAS Copywriting** | Marketing Copywriting Standards | `landing-page-writer`, `ad-copy-writer` |
+| **AIDA/PAS Copywriting** | Marketing Copywriting Standards | `landing-page-writer`, `ad-copy-writer`, `sales-proposal` |
 | **CAN-SPAM/GDPR** | Email Marketing Compliance | `email-newsletter-writer` |
 | **CRAAP Test** | California State University | `research-assistant` |
-| **PREP Framework** | Negotiation Best Practices | `negotiation-handler` |
 | **SAVE Framework** | Customer Retention Methodology | `subscription-manager` |
 | **ISOLATE Method** | Technical Support Best Practices | `technical-troubleshooter` |
 | **DACI Framework** | Decision-Making Framework | `meeting-summarizer` |
